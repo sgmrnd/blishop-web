@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<h1>{{ item_desc.name }}</h1>
+<img src="{{ pet.url }}" alt="">
+<p>{{ item_desc.price }}</p>
+<ul>
+  <li>Sizes available: {{ item_desc.size }}</li>
+  <li>Description: {{ item_desc.description }}</li>
+  <li>Material: {{ item_desc.material }}</li>
+</ul>
+{% endblock %}

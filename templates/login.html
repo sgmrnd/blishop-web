@@ -1,0 +1,31 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<<html>
+    <head>
+        <title></title>
+        <link rel="stylesheet" type ="text/css" href="/static/login.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+    </head>
+<center>
+<body>
+    <h1>Login</h1>
+
+    <form method="POST" action="">
+        {{ form.hidden_tag() }}
+        {{ form.username }}
+        <small id="emailHelp" class="form-text text-muted">Don't worry. We'll never share your email with anyone else.</small>
+        {{ form.password }}
+        {{ form.submit }}
+        
+    </form>
+
+    <a href="{{ url_for('register') }}">Don't have an account? Sign Up</a>
+</body>
+</center>
+
+</html>
+{% endblock %}

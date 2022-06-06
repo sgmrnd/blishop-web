@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+
+}
+.container{
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+}
+.row {
+    display: flex;
+    height: 88%;
+    align-items: center;
+}
+.col {
+    flex-basis: 50%;
+}
+h1 {
+    color: black;
+    font-size: 70px;
+    text-align: left;
+    font-family: georgia;
+}
+p{
+    color: darkslategrey;
+    font-size: 20px;
+    text-align: left;
+    font-family: 'Gill Sans';
+    text-justify: auto;
+    max-width: 700px;
+}
+button{
+    width: 180px;
+    color: #fff;
+    font-size: 12px;
+    padding: 12px 0;
+    background-color: #000;
+    border: 0;
+    border-radius: 20px;
+    outline: none;
+    margin-top: 30px;
+    cursor: pointer;
+}
+.card {
+    width: 300px;
+    height: 330px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 20px 15px;
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.5s;
+}
+.card1 {
+    background-image: url(../pictures/rash\ guard.1.jpg);
+}
+.card2 {
+    background-image: url(../pictures/suimsuit.2.jpg);
+}
+.card3 {
+    background-image: url(../pictures/sport\ bra.3.jpg);;
+}
+.card4 {
+    background-image: url(../pictures/tights.4.jpg);;
+}
+.card:hover {
+    transform: translateY(-20px);
+}
+h5 {
+    color: #000;
+    text-shadow: 0 0 5px #999;
+}
+.card p{
+    text-shadow: 0 0 15px #999;
+    font-size: 10px;
+    max-width: 50px;
+}
+h1 {
+    left: 10%
+}
+@media screen and (max-width: 500px){
+    .responsive {
+        padding:0px 20px
+        text-align justify;
+    }
+    
+}
+table {
+  width: 100%;
+  height: 700px;
+}
+table {
+            border-collapse: collapse;
+        }
+
+th, td {
+        vertical-align: bottom
+}
+td img {
+    width: 232px;
+    height: 232px;
+}

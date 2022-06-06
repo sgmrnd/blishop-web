@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<h1>Our Products</h1>
+<ul>
+  <li><a href="{{ url_for('swimsuit') }}">Swimsuit</a></li>
+  <li><a href="{{ url_for('rash_guard') }}">Rash Guard</a></li>
+  <li><a href="{{ url_for('sports_bra') }}">Sports Bra</a></li>
+</ul>
+
+{% endblock %}   
